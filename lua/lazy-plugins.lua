@@ -51,6 +51,7 @@ require('lazy').setup({
 
   require 'lazy.plugins.neo-tree',
 
+  require 'lazy.plugins.nvim-colorizer',
   --
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!
