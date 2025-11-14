@@ -46,7 +46,7 @@ return {
         indent_marker = '│',
         last_indent_marker = '└',
         expander_collapsed = '+',
-        expander_expanded = '‒',
+        expander_expanded = '-',
         expander_highlight = 'NeoTreeExpander',
         highlight = 'NeoTreeIndentMarker',
       },
@@ -59,8 +59,8 @@ return {
       icon = {
         folder_closed = '■',
         folder_open = '■',
-        folder_empty = '󰉖',
-        folder_empty_open = '󰷏',
+        folder_empty = '■',
+        folder_empty_open = '■',
         use_filtered_colors = true, -- Whether to use a different highlight when the file is filtered (hidden, dotfile, etc.).
         -- The next two settings are only a fallback, if you use nvim-web-devicons and configure default icons there
         -- then these will never be used.
