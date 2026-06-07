@@ -24,34 +24,22 @@ require('lazy').setup({
   -- include a plugin definition from file lua/path/name.lua
 
   require 'lazy.plugins.gitsigns',
-
   require 'lazy.plugins.which-key',
-
   require 'lazy.plugins.telescope',
-
   require 'lazy.plugins.lspconfig',
-
   require 'lazy.plugins.conform',
-
   require 'lazy.plugins.blink-cmp',
-
   require 'lazy.plugins.todo-comments',
-
   require 'lazy.plugins.mini',
-
   require 'lazy.plugins.treesitter',
-
   require 'lazy.plugins.debug',
-
   -- require 'lazy.plugins.indent_line',
-
   require 'lazy.plugins.lint',
-
   require 'lazy.plugins.autopairs',
-
   require 'lazy.plugins.neo-tree',
-
   require 'lazy.plugins.nvim-colorizer',
+  require 'lazy.plugins.wilder',
+  require 'lazy.plugins.flash',
   --
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!

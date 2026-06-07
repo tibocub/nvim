@@ -6,6 +6,9 @@ local opts = { noremap = true, silent = true }
 -- quit file
 -- vim.keymap.set('n', '<C-q>', '<cmd> q <CR>', opts)
 
+-- maps an alternative '@' macro execution to the same key on azerty keyboard without the need for combo-keys
+vim.keymap.set('n', 'à', '@')
+
 -- delete single character without overwritting yank buffer
 vim.keymap.set('n', 'x', '"_x', opts)
 
@@ -49,8 +52,7 @@ vim.keymap.set('n', '<C-Left>', ':vertical resize +2<CR>', opts)
 vim.keymap.set('n', '<C-Right>', ':vertical resize -2<CR>', opts)
 
 -- Replace '<C-w> v' vertical split with '<C-w> d' because next to s (the horizontal split key)
--- Easy to memorize if you thinkof it like video game controls : like in WASD, S is for Down and
--- D is for Right, so '<C-w> s' makes a new window to the bottom and '<C-w> d' to the right.
+-- Easy to memorize if you thinkof it like WASD video game controls
 vim.keymap.set('n', '<C-w>d', '<C-w>v', { desc = 'Open window to the right' })
 
 -- Spawn terminal in current window
