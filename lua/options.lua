@@ -7,13 +7,17 @@ vim.o.number = true
 -- You can also add relative line numbers, to help with jumping.
 -- vim.o.relativenumber = true
 
--- Enable mouse mode, can be useful for resizing splits for example!
+-- Enable mouse
 vim.o.mouse = 'a'
+
+-- Colors
+vim.opt.termguicolors = true
 
 -- Tab tweaks
 vim.o.shiftwidth = 2
 vim.o.tabstop = 2
 vim.o.softtabstop = 2
+vim.o.autoindent = true
 vim.o.smartindent = true
 
 -- Don't warp lines too long to be displayed on one line
@@ -24,7 +28,7 @@ vim.o.linebreak = true
 vim.o.whichwrap = 'bs<>[]hl'
 
 -- Force terminal colorscheme
-vim.o.termguicolors = false
+-- vim.o.termguicolors = false
 
 -- Don't show the mode, since it's already in the status line
 vim.o.showmode = false

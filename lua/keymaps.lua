@@ -6,6 +6,7 @@ local opts = { noremap = true, silent = true }
 -- quit file
 -- vim.keymap.set('n', '<C-q>', '<cmd> q <CR>', opts)
 
+
 -- maps an alternative '@' macro execution to the same key on azerty keyboard without the need for combo-keys
 vim.keymap.set('n', 'à', '@')
 

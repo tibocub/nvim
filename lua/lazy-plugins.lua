@@ -40,6 +40,8 @@ require('lazy').setup({
   require 'lazy.plugins.nvim-colorizer',
   require 'lazy.plugins.wilder',
   require 'lazy.plugins.flash',
+  require 'lazy.plugins.vesper',
+  require 'lazy.plugins.42norm',
   --
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!
