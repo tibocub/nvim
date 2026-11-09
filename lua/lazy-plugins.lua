@@ -38,11 +38,12 @@ require('lazy').setup({
   require 'lazy.plugins.autopairs',
   require 'lazy.plugins.neo-tree',
   require 'lazy.plugins.nvim-colorizer',
-  require 'lazy.plugins.wilder',
+  -- require 'lazy.plugins.wilder',
   require 'lazy.plugins.flash',
   require 'lazy.plugins.vesper',
   require 'lazy.plugins.42norm',
-  --
+  -- require 'lazy.plugins.crystal',
+
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!
   -- In normal mode type `<space>sh` then write `lazy.nvim-plugin`
