@@ -20,6 +20,16 @@ vim.o.softtabstop = 2
 vim.o.autoindent = true
 vim.o.smartindent = true
 
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "c",
+  callback = function()
+    vim.opt_local.tabstop = 4
+    vim.opt_local.shiftwidth = 4
+    vim.opt_local.softtabstop = 4
+    vim.opt_local.expandtab = true
+  end,
+})
+
 -- Don't warp lines too long to be displayed on one line
 vim.o.wrap = false
 vim.o.linebreak = true
