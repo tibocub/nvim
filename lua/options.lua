@@ -4,8 +4,7 @@
 
 -- Make line numbers default
 vim.o.number = true
--- You can also add relative line numbers, to help with jumping.
--- vim.o.relativenumber = true
+vim.o.relativenumber = true
 
 -- Enable mouse
 vim.o.mouse = 'a'
