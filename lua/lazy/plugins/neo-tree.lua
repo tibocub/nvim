@@ -20,6 +20,8 @@ return {
       use_libuv_file_watcher = true,
     },
     window = {
+			position = "left",
+			width = 28,
       mappings = {
         ['<leader>e'] = 'close_window',
         ['Y'] = {
